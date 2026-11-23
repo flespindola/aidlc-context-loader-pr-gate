@@ -1,3 +1,0 @@
-// node_modules/.pnpm/@tanstack+react-start@1.169.7_react-dom@19.3.1_react@19.3.1__react@19.3.1_rolldown@1.2._1af03455f09f13f7a39a5e440cd8d209/node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts
-var startInstance = void 0;
-export { startInstance };
