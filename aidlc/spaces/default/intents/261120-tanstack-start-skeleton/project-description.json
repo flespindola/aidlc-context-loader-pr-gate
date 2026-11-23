@@ -1,0 +1,1 @@
+"create a web project using Tanstack Start, define the architecture rules for it in fixtures/library/*.md with YAML frontmatter (tags, applicable_stages, applicable_agents). We will create a web game from there, but this initial phase aims to setup the project's skeleton"

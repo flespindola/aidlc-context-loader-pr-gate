@@ -1,0 +1,16 @@
+{
+  "stage": "infrastructure-design",
+  "unit": "u1-skeleton",
+  "upstream_ids": [
+    "NFR1.1",
+    "NFR2.2",
+    "NFR2.1",
+    "NFR1.2"
+  ],
+  "coverage": [
+    { "id": "NFR1.1", "status": "N/A", "target": "local process only, no cloud resource" },
+    { "id": "NFR2.2", "status": "N/A", "target": "no remote call, no network resource" },
+    { "id": "NFR2.1", "status": "N/A", "target": "no sign-in, no identity service" },
+    { "id": "NFR1.2", "status": "N/A", "target": "no deploy in this phase" }
+  ]
+}

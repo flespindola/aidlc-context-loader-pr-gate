@@ -1,0 +1,16 @@
+{
+  "stage": "nfr-design",
+  "unit": "u1-skeleton",
+  "upstream_ids": [
+    "NFR1.1",
+    "NFR2.2",
+    "NFR2.1",
+    "NFR1.2"
+  ],
+  "coverage": [
+    { "id": "NFR1.1", "status": "OK", "target": "local process serves the home heading" },
+    { "id": "NFR2.2", "status": "OK", "target": "no remote call from the home page" },
+    { "id": "NFR2.1", "status": "OK", "target": "no authentication on the home route" },
+    { "id": "NFR1.2", "status": "OK", "target": "no deploy and no remote environment" }
+  ]
+}

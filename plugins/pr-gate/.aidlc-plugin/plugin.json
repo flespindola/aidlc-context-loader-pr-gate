@@ -1,0 +1,13 @@
+{
+  "name": "pr-gate",
+  "version": "0.1.0",
+  "description": "Local PR gate for acceptance-criteria coverage and returned architecture rules.",
+  "dependencies": ["core"],
+  "aidlc": {
+    "contributes": {
+      "stages": "stages/",
+      "scopes": "scopes/",
+      "sensors": "sensors/"
+    }
+  }
+}

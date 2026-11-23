@@ -1,0 +1,133 @@
+{
+  "stage": "code-generation",
+  "upstream_ids": [
+    "FR1.1",
+    "FR1.2",
+    "FR2.1",
+    "FR3.1",
+    "FR3.2",
+    "FR3.3",
+    "FR3.4",
+    "FR4.1",
+    "FR4.2",
+    "FR4.3",
+    "FR4.4",
+    "FR4.5",
+    "FR5.1",
+    "FR5.2",
+    "FR5.3",
+    "FR6.1",
+    "FR6.2",
+    "FR6.3",
+    "NFR1",
+    "NFR2",
+    "NFR3"
+  ],
+  "coverage": [
+    {
+      "id": "FR1.1",
+      "status": "OK",
+      "target": "plugins/pr-gate/.aidlc-plugin/plugin.json"
+    },
+    {
+      "id": "FR1.2",
+      "status": "OK",
+      "target": "plugins/pr-gate/stages/construction/pr-gate.md"
+    },
+    {
+      "id": "FR2.1",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/pr-gate-entry.ts"
+    },
+    {
+      "id": "FR3.1",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/ac-coverage.ts"
+    },
+    {
+      "id": "FR3.2",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/ac-coverage.ts"
+    },
+    {
+      "id": "FR3.3",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/ac-coverage.ts"
+    },
+    {
+      "id": "FR3.4",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/ac-coverage.ts"
+    },
+    {
+      "id": "FR4.1",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/adr-compliance.ts"
+    },
+    {
+      "id": "FR4.2",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/adr-compliance.ts"
+    },
+    {
+      "id": "FR4.3",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/adr-compliance.ts"
+    },
+    {
+      "id": "FR4.4",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/adr-compliance.ts"
+    },
+    {
+      "id": "FR4.5",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/adr-compliance.ts"
+    },
+    {
+      "id": "FR5.1",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/verdict.ts"
+    },
+    {
+      "id": "FR5.2",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/verdict.ts"
+    },
+    {
+      "id": "FR5.3",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/verdict.ts"
+    },
+    {
+      "id": "FR6.1",
+      "status": "OK",
+      "target": "plugins/pr-gate/tests/pr-gate-entry.test.ts"
+    },
+    {
+      "id": "FR6.2",
+      "status": "OK",
+      "target": "plugins/pr-gate/tests/pr-gate-entry.test.ts"
+    },
+    {
+      "id": "FR6.3",
+      "status": "OK",
+      "target": "plugins/pr-gate/tests/ac-coverage.test.ts"
+    },
+    {
+      "id": "NFR1",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/pr-gate-entry.ts"
+    },
+    {
+      "id": "NFR2",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/adr-compliance.ts"
+    },
+    {
+      "id": "NFR3",
+      "status": "OK",
+      "target": "plugins/pr-gate/src/pr-gate-entry.ts"
+    }
+  ]
+}

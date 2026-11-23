@@ -1,0 +1,10 @@
+dist
+node_modules
+src/routeTree.gen.ts
+pnpm-lock.yaml
+aidlc
+.cursor
+AGENTS.md
+.gitignore
+INSTRUCTIONS.md
+fixtures/.test-work

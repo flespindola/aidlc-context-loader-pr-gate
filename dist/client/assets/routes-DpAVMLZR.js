@@ -1,0 +1,1 @@
+import{t as e}from"./index-D3y8Vayv.js";var t=e();function n(){return(0,t.jsx)(`main`,{children:(0,t.jsx)(`h1`,{children:`The app is up`})})}export{n as component};

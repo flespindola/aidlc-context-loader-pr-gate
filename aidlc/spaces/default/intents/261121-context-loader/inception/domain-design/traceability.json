@@ -1,0 +1,27 @@
+{
+  "stage": "domain-design",
+  "upstream_ids": [
+    "FR1.1",
+    "FR1.2",
+    "FR1.3",
+    "FR1.4",
+    "FR1.5",
+    "FR1.6",
+    "FR1.7",
+    "FR1.8",
+    "FR2.1",
+    "FR3.1"
+  ],
+  "coverage": [
+    { "id": "FR1.1", "status": "OK", "target": "ContextSelector" },
+    { "id": "FR1.2", "status": "OK", "target": "ContextSelector" },
+    { "id": "FR1.3", "status": "OK", "target": "ContextSelector" },
+    { "id": "FR1.4", "status": "OK", "target": "ContextSelector" },
+    { "id": "FR1.5", "status": "OK", "target": "ContextSelector" },
+    { "id": "FR1.6", "status": "OK", "target": "ContextSelector" },
+    { "id": "FR1.7", "status": "OK", "target": "ContextSelector" },
+    { "id": "FR1.8", "status": "OK", "target": "ContextSelector" },
+    { "id": "FR2.1", "status": "OK", "target": "RuleLibrary" },
+    { "id": "FR3.1", "status": "OK", "target": "ContextSelector" }
+  ]
+}
