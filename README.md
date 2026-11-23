@@ -31,6 +31,12 @@ pnpm test
 
 `pnpm test` runs the full Vitest suite: the home page and rule-file check, the context loader, and the PR gate. `npm test` runs the same script.
 
+The joint run of the context loader and the PR gate, on the shipped rules in `fixtures/library/` and a home-route change, is `plugins/pr-gate/tests/context-loader-flow.test.ts`.
+
+```bash
+pnpm exec vitest run plugins/pr-gate/tests/context-loader-flow.test.ts
+```
+
 ## Context loader
 
 ```bash
@@ -46,6 +52,8 @@ The gate is `plugins/pr-gate/`. Validate the package with:
 ```bash
 aidlc plugin validate plugins/pr-gate
 ```
+
+That same flow is covered by `plugins/pr-gate/tests/context-loader-flow.test.ts`.
 
 ## Open the page
 
