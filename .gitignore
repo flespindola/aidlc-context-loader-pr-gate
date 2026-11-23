@@ -28,3 +28,18 @@ aidlc/diagnostics/
 .aidlc/worktree-meta.json
 .aidlc/base-source-listing.tsv
 # END AI-DLC:gitignore
+
+# TanStack Start (starter ignores from @tanstack/cli)
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.env
+.nitro
+.tanstack
+.wrangler
+.output
+.vinxi
+__unconfig*
+todos.json
